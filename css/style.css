@@ -45,6 +45,7 @@ body {
   font-size: 12px;
   padding: 14px 12px;
   display: inline-block;
+  transition: 0.3s;
 }
 
 .button:hover {
@@ -54,21 +55,12 @@ body {
 
 main {
   background-color: #f2f2f2;
+  padding-top: 70px;
 }
 
 /*ここからthem*/
 
-.theme-inner,
-
-.work-inner {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.theme {
+.theme-inner {
   padding: 250px 0;
 }
 
@@ -127,13 +119,18 @@ main {
 /*ここから画像６つ*/
 
 .work-inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   background-color: #f2f2f2;
   padding-bottom: 70px;
+  padding-top: 60px;
 }
 
-.work__h3 {
+.work__title {
   font-size: 24px;
-  padding-top: 60px;
 }
 
 .work__list {
@@ -147,6 +144,7 @@ main {
 .work__group {
   opacity: 0.7;
   margin: 80px 0 0 100px;
+  transition: 0.3s;
 }
 
 .work__group:hover {
@@ -161,7 +159,7 @@ main {
 .work__group:nth-child(-n+3) {
   margin-top: 0;
 }
-/*ココわからん*/
+
 .mail__box {
   margin-top: 90px;
   display: flex;
@@ -169,6 +167,7 @@ main {
 }
 
 .mail {
+  align-items: center;
   display: inline-block;
   color: #fff;
   background-color: #74cfae;
@@ -179,6 +178,7 @@ main {
   height: 20px;
   line-height: 20px;
   text-align: center;
+  transition: 0.3s
 }
 
 .mail:hover {
@@ -203,7 +203,7 @@ main {
   padding: 70px 0 100px;
 }
 
-.skill__h4 {
+.skill__title {
   font-size: 24px;
   text-align:center;
 
