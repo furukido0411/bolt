@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Lato";
+  color: #333;
+}
+
+.font-raleway {
+  font-family: "Raleway";
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+
+.size {
+  font-size:2em;
+}
+
+.size {
+  color:#4e4e4e;
+}
+
+.button {
+  color: #fff;
+  background-color: #74cfae;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 14px 12px;
+  display: inline-block;
+}
+
+.button:hover {
+  color: #333;
+  transition: 0.3s;
+}
+
+main {
+  background-color: #f2f2f2;
+}
+
+/*ここからthem*/
+
+.theme-inner,
+
+.work-inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme {
+  padding: 250px 0;
+}
+
+.them__h1 {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+}
+
+.theme__lead {
+  font-size: 30px;
+  color: #c0c0c0;
+  margin-top: 20px;
+}
+
+.them__h1,
+.theme__lead {
+  text-align: center;
+}
+
+/*ここからsection*/
+
+.what {
+  background-color: #74cfae;
+  color: #fff;
+  text-align: center;
+}
+
+.what-inner {
+  padding-top: 50px;
+}
+
+.what__section {
+  display: flex;
+}
+
+.what__h2 {
+  font-size: 24px;
+}
+
+.what__lead {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 35px;
+}
+
+.what__rap {
+  width: 650px;
+}
+
+.what__img {
+  width: 450px;
+  font-size: 0;
+}
+
+/*ここから画像６つ*/
+
+.work-inner {
+  background-color: #f2f2f2;
+  padding-bottom: 70px;
+}
+
+.work__h3 {
+  font-size: 24px;
+  padding-top: 60px;
+}
+
+.work__list {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0;
+}
+
+.work__group {
+  opacity: 0.7;
+  margin: 80px 0 0 100px;
+}
+
+.work__group:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.work__group:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.work__group:nth-child(-n+3) {
+  margin-top: 0;
+}
+/*ココわからん*/
+.mail__box {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.mail {
+  display: inline-block;
+  color: #fff;
+  background-color: #74cfae;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 12px;
+  margin-left: 90px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.mail:hover {
+  transition: 0.3s;
+  color: #333;
+}
+
+.work__lead {
+  width: 580px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*ここからsection*/
+
+.skill {
+  background-color: #4e4e4e;
+  color: #fff;
+}
+
+.skill-inner {
+  padding: 70px 0 100px;
+}
+
+.skill__h4 {
+  font-size: 24px;
+  text-align:center;
+
+}
+
+.skill__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.skill__text {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.skill__group {
+  margin-left: 180px;
+}
+
+.skill__group:first-child {
+  margin-left: 0;
+}
+
+.skill__img,
+.skill__text {
+  text-align: center;
+}
+
+/*ここからnav*/
+.sns {
+  background-color: #f2f2f2;
+}
+
+.sns-inner {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+}
+
+.sns__button {
+  display: inline-block;
+  text-align: center;
+  box-sizing:border-box;
+  color: #74cfae;
+  padding: 40px 20px;
+  width: 185px;
+}
+
+.sns__button:hover {
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+/*ここからfooterいまここ*/
+
+.footer {
+  background-color: #74cfae;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0 25px;
+}
+
+.footer__text {
+  color: #fff;
+}
