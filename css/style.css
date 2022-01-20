@@ -192,9 +192,11 @@ main {
   text-align: center;
 }
 
-.what__img {
+/*修正*/
+.a {
   display:inline-block;
 }
+/*修正*/
 
 /*ここからsection*/
 
@@ -254,7 +256,7 @@ main {
   display: inline-block;
   text-align: center;
   color: #74cfae;
-  padding: 40px;
+  padding: 40px 0;
   width: 185px;
   transition: 0.3s;
 }
